@@ -14,7 +14,7 @@ return {
           end
         end,
         open_mapping = [[<c-\>]], -- Use a temporary mapping
-        direction = 'horizontal', -- Set direction to 'float' for floating terminal
+        direction = 'float', -- Set direction to 'float' for floating terminal
         float_opts = {
           border = 'curved',
           width = function()
